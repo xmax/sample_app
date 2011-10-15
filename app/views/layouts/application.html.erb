@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <title><%= title %></title>
   <%= csrf_meta_tag %>
   <%= csrf_meta_tags %>
+  <%= render "layouts/stylesheets" %>
 </head>
 <body>
-
-<%= yield %>
-
+    <div class="container">
+        <%= render "layouts/header" %>
+        <section class="round">
+            <%= yield %>
+        </section>
+        <%= render "layouts/footer" %>
+    </div>
 </body>
 </html>
