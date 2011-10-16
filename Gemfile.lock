@@ -34,6 +34,12 @@ GEM
     builder (3.0.0)
     diff-lcs (1.1.3)
     erubis (2.7.0)
+    factory_girl (2.2.0)
+      activesupport
+    factory_girl_rails (1.3.0)
+      factory_girl (~> 2.2.0)
+      railties (>= 3.0.0)
+    gravatar_image_tag (1.0.0)
     hike (1.2.1)
     i18n (0.6.0)
     json (1.6.1)
@@ -110,6 +116,8 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  factory_girl_rails
+  gravatar_image_tag
   rack
   rails
   rspec-rails
