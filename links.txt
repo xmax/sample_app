@@ -1,0 +1,3 @@
+http://russian.railstutorial.org/chapters/modeling-and-viewing-users-one#top
+http://rusrails.ru/getting-started-with-rails/what-is-rails
+http://archive.rusrails.ru/rails-routing/resource-routing-the-rails-default-1
