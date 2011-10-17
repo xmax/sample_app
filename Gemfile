@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails'
 gem 'sqlite3'
-gem 'rack'
+gem 'rack','1.3.3'
 gem 'gravatar_image_tag'
 
 group :development do
