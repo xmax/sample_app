@@ -9,7 +9,7 @@ gem 'will_paginate'
 gem 'sass-rails'
 gem 'coffee-script'
 gem 'uglifier'
-gem 'therubyracer'
+#gem 'therubyracer'
 gem 'json'
 gem 'execjs'
 
